@@ -3716,6 +3716,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info-box {
   color: #444444;
+  background-color: #fff;
   text-align: center;
   padding: 30px 0 32px 0;
   border-radius: 4px;
@@ -3754,6 +3755,7 @@ section {
   box-shadow: 0px 2px 5px 1px rgba(32,191,240,1);
   -webkit-box-shadow: 0px 2px 5px 1px rgba(32,191,240,1);
   -moz-box-shadow: 0px 2px 5px 1px rgba(32,191,240,1);
+  background-color: #fff;
 }
 
 @media (max-width: 575.98px) { 
