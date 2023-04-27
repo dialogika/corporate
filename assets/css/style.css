@@ -3190,10 +3190,13 @@ select:visited {
 }
 
 .in-benefit-img {
-  overflow: hidden;
+/*  overflow: hidden;*/
 }
 .in-benefit-img img {
-  border-radius: 5px;
+  border-radius: 8px;
+  box-shadow: 0px 9px 16px -6px rgba(32,191,240,1);
+  -webkit-box-shadow: 0px 9px 16px -6px rgba(32,191,240,1);
+  -moz-box-shadow: 0px 9px 16px -6px rgba(32,191,240,1);
 }
 
 .in-benefit-text {
@@ -7529,7 +7532,8 @@ select:visited {
 /* Breadcrumb area*/
 /*----------------------------------------------------*/
 .in-breadcrumb-section {
-  padding-top: 171px;
+/*  padding-top: 171px;*/
+  padding-top:0px;
   background-color: #0B2B6A;
 }
 .in-breadcrumb-section .in-breadcrumb-content {
@@ -9346,8 +9350,16 @@ select:visited {
 }
 
 .in-service-details-img {
-  overflow: hidden;
-  border-radius: 5px;
+/*  overflow: hidden;*/
+  border-radius: 8px;
+}
+
+.in-service-details-img img {
+  border-radius: 8px;
+  border: 0.37 px outset #dcf2fe;
+  box-shadow: 0px 9px 16px -6px rgba(32,191,240,1);
+  -webkit-box-shadow: 0px 9px 16px -6px rgba(32,191,240,1);
+  -moz-box-shadow: 0px 9px 16px -6px rgba(32,191,240,1);
 }
 
 .in-service-details-list {
@@ -10774,7 +10786,12 @@ select:visited {
   }
   .in-benefit-img {
     text-align: center;
+    border: 0.37 px outset #dcf2fe;
+  box-shadow: 0px 9px 16px -6px rgba(32,191,240,1);
+  -webkit-box-shadow: 0px 9px 16px -6px rgba(32,191,240,1);
+  -moz-box-shadow: 0px 9px 16px -6px rgba(32,191,240,1);
   }
+
   .in-benefit-text {
     margin: 0 auto;
     max-width: 570px;
