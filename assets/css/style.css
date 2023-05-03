@@ -1758,7 +1758,7 @@ select:visited {
   color: #fff;
   font-weight: 500;
   padding: 16px 60px;
-  border-radius: 50px;
+  border-radius: 5px;
   display: inline-block;
   background: -webkit-gradient(linear, left top, right top, from(#0B2B6A), color-stop(50%, #00bcf9), to(#2279C9));
   background: linear-gradient(90deg, #0B2B6A 0%, #00bcf9 50%, #0B2B6A);
