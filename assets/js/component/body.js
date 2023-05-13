@@ -1,4 +1,4 @@
-class Plan extends HTMLElement {
+class Advance extends HTMLElement {
   constructor() {
     super();
   }
@@ -99,4 +99,61 @@ class Plan extends HTMLElement {
   }
 }
 
-customElements.define("pricing-plan", Plan);
+class Sponsor extends HTMLElement {
+  constructor() {
+    super();
+  }
+  connectedCallback() {
+    this.innerHTML = `
+    <section id="in-sponsor" class="in-sponsor-section-2" style="margin-bottom: -65px;">
+		<div class="container">
+			<div class="in-sponsor-slider">
+				<div class="in-sponsor-item">
+					<div class="inner-img">
+						<img src="assets/img/corporate/uad.png" alt="">
+					</div>
+				</div>
+				<div class="in-sponsor-item">
+					<div class="inner-img">
+						<img src="assets/img/corporate/uin-suka.png" alt="">
+					</div>
+				</div>
+				<div class="in-sponsor-item">
+					<div class="inner-img">
+						<img src="assets/img/corporate/aveon.png" alt="">
+					</div>
+				</div>
+				<div class="in-sponsor-item">
+					<div class="inner-img">
+						<img src="assets/img/corporate/smk-dr-sutomo-temanggung.png" alt="">
+					</div>
+				</div>
+				<div class="in-sponsor-item">
+					<div class="inner-img">
+						<img src="assets/img/corporate/polita.png" alt="">
+					</div>
+				</div>
+				<div class="in-sponsor-item">
+					<div class="inner-img">
+						<img src="assets/img/corporate/mercu.png" alt="">
+					</div>
+				</div>
+				<div class="in-sponsor-item">
+					<div class="inner-img">
+						<img src="assets/img/corporate/amikom.png" alt="">
+					</div>
+				</div>
+				<div class="in-sponsor-item">
+					<div class="inner-img">
+						<img src="assets/img/corporate/ugm.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    `;
+  }
+}
+
+customElements.define("pricing-advance", Advance);
+customElements.define("main-sponsor", Sponsor);
