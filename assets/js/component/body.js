@@ -4,6 +4,7 @@ class Advance extends HTMLElement {
   }
   connectedCallback() {
     this.innerHTML = `
+    <!-- Start of Price section ============================================= -->
     <section id="in-price" class="in-price-section">
       <div class="container">
         <div
@@ -20,8 +21,8 @@ class Advance extends HTMLElement {
             <div class="col-lg-4 col-md-6">
               <div class="in-price-inner-items text-center">
                 <div class="pricing-title-price-area headline">
-                  <h2>STARTER</h2>
-                  <h3><sup>RP.</sup>7.975.000</h3>
+                  <h2>BRONZE</h2>
+                  <h3><sup>RP.</sup>8.975.000</h3>
                   <span>Per Month / PAX</span>
                 </div>
                 <div class="pricing-list-btn position-relative">
@@ -45,8 +46,8 @@ class Advance extends HTMLElement {
             <div class="col-lg-4 col-md-6">
               <div class="in-price-inner-items text-center">
                 <div class="pricing-title-price-area headline">
-                  <h2>PREMIUM</h2>
-                  <h3><sup>RP.</sup>4.798.000</h3>
+                  <h2>SILVER</h2>
+                  <h3><sup>RP.</sup>5.798.000</h3>
                   <span>Per Month / PAX</span>
                 </div>
                 <div class="pricing-list-btn position-relative">
@@ -70,8 +71,8 @@ class Advance extends HTMLElement {
             <div class="col-lg-4 col-md-6">
               <div class="in-price-inner-items text-center">
                 <div class="pricing-title-price-area headline">
-                  <h2>ULTRA</h2>
-                  <h3><sup>RP.</sup>3.589.000</h3>
+                  <h2>GOLDEN</h2>
+                  <h3><sup>RP.</sup>4.589.000</h3>
                   <span>Per Month / PAX</span>
                 </div>
                 <div class="pricing-list-btn position-relative">
@@ -95,6 +96,8 @@ class Advance extends HTMLElement {
           </div>
         </div>
       </div>
+    </section>
+    <!-- End of Price section -->
     `;
   }
 }
