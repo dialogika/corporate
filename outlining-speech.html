@@ -408,77 +408,115 @@
 		<div class="container">
 			<div class="in-cta-contact-content-3 position-relative">
 				<div class="in-get-quote-form-area">
-					<div class="in-get-quote-btn">
-						<ul class="nav nav-tabs" id="myTab" role="tablist">
-							<li class="nav-item" role="presentation">
-								<button class="nav-link active" id="home-tab" data-bs-toggle="tab"
-									data-bs-target="#personal" type="button" role="tab" aria-controls="home"
-									aria-selected="true">Personal</button>
-							</li>
-							<li class="nav-item" role="presentation">
-								<button class="nav-link" id="profile-tab" data-bs-toggle="tab"
-									data-bs-target="#business" type="button" role="tab" aria-controls="profile"
-									aria-selected="false">Business</button>
-							</li>
-						</ul>
-					</div>
-					<div class="in-contact-tab-area">
-						<div class="tab-content" id="myTabContent">
-							<div class="tab-pane animated fadeInUp show active" id="personal" role="tabpanel"
-								aria-labelledby="home-tab">
-								<div class="in-contact-form-title-area">
-									<div class="form-title headline pera-content">
-										<h3>Lorem Ipsum</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur</p>
-									</div>
-									<div class="in-contact-form">
-										<form action="#" method="get">
-											<input type="text" name="name" placeholder="Name">
-											<input type="email" name="email" placeholder="Email">
-											<div class="in-insurance-type in-select position-relative">
-												<select>
-													<option value="#">Type</option>
-													<option value="#">Lorem Ipsum</option>
-													<option value="#">Lorem Ipsum</option>
-													<option value="#">Lorem Ipsum</option>
-													<option value="#">Lorem Ipsum</option>
-												</select>
-											</div>
-											<button type="submit">Get a Quote Now</button>
-										</form>
+						<div class="in-get-quote-btn">
+							<ul class="nav nav-tabs" id="myTab" role="tablist">
+								<li class="nav-item" role="presentation">
+									<button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+										data-bs-target="#personal" type="button" role="tab">Short </button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+										data-bs-target="#business" type="button" role="tab">Long </button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="trial-tab" data-bs-toggle="tab" data-bs-target="#trial"
+										type="button" role="tab">Trial </button>
+								</li>
+							</ul>
+						</div>
+						<div class="in-contact-tab-area">
+							<div class="tab-content" id="myTabContent">
+								<div class="tab-pane animated fadeInUp show active" id="personal" role="tabpanel"
+									aria-labelledby="home-tab">
+									<div class="in-contact-form-title-area">
+										<div class="form-title headline pera-content">
+											<h3>Short Training</h3>
+											<p>Dapatkan bentuk pelatihan short training Dialogika</p>
+										</div>
+										<div class="in-contact-form">
+											<form action="javascript:void" id="myForm" onsubmit="SubForm()"
+												method="post">
+												<input type="text" name="Name" id="names" placeholder="Company Name">
+												<input type="tel" name="whatsapp" placeholder="Whatsapp Number">
+												<div class="in-insurance-type in-select position-relative">
+													<select name="Program" id="programs">
+														<option value="#">One Day Training</option>
+														<option value="#">Two Days Training</option>
+														<option value="#">Three Days Training</option>
+														<option value="#">Five Days Training</option>
+														<option value="#">Seven Days Training</option>
+													</select>
+													<select class="d-none" name="Timestamp">
+														<option id="timestamp"></option>
+													</select>
+												</div>
+												<button type="submit" class="send_contact">Send Whatsapp</button>
+											</form>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="tab-pane animated fadeInUp" id="business" role="tabpanel"
-								aria-labelledby="home-tab">
-								<div class="in-contact-form-title-area">
-									<div class="form-title headline pera-content">
-										<h3>Lorem Ipsum</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur</p>
+								<div class="tab-pane animated fadeInUp" id="business" role="tabpanel"
+									aria-labelledby="home-tab">
+									<div class="in-contact-form-title-area">
+										<div class="form-title headline pera-content">
+											<h3>Long Training</h3>
+											<p>Bandingkan bentuk pelatihan long training Dialogika</p>
+										</div>
+										<div class="in-contact-form">
+											<form action="javascript:void" id="myForm2" onsubmit="SubForm2()"
+												method="post">
+												<input type="text" name="Name" id="names2" placeholder="Company Name">
+												<input type="tel" name="whatsapp" placeholder="Whatsapp Number">
+												<div class="in-insurance-type in-select position-relative">
+													<select name="Program" id="programs">
+														<option value="#">One Month Training</option>
+														<option value="#">Two Month Training</option>
+														<option value="#">Three Month Training</option>
+														<option value="#">Six Month Training</option>
+													</select>
+													<select class="d-none" name="Timestamp">
+														<option id="timestamp"></option>
+													</select>
+												</div>
+												<button type="submit" class="send_contact2">Send Whatsapp</button>
+											</form>
+										</div>
 									</div>
-									<div class="in-contact-form">
-										<form action="#" method="get">
-											<input type="text" name="name" placeholder="Name">
-											<input type="email" name="email" placeholder="Email">
-											<div class="in-insurance-type in-select position-relative">
-												<select>
-													<option value="#">Type</option>
-													<option value="#">Lorem Ipsum</option>
-													<option value="#">Lorem Ipsum</option>
-													<option value="#">Lorem Ipsum</option>
-													<option value="#">Lorem Ipsum</option>
-												</select>
-											</div>
-											<button type="submit">Get a Quote Now</button>
-										</form>
+								</div>
+								<div class="tab-pane animated fadeInUp" id="trial" role="tabpanel"
+									aria-labelledby="trial-tab">
+									<div class="in-contact-form-title-area">
+										<div class="form-title headline pera-content">
+											<h3>Free Trial</h3>
+											<p>Dapatkan Pelatihan Gratis Khusus Perusahaan Disini*</p>
+										</div>
+										<div class="in-contact-form">
+											<form action="javascript:void" id="myForm3" onsubmit="SubForm3()"
+												method="post">
+												<input type="text" name="Name" id="names3" placeholder="Company Name">
+												<input type="tel" name="whatsapp" placeholder="Whatsapp Number">
+												<div class="in-insurance-type in-select position-relative">
+													<select name="Program" id="programs">
+														<option value="#">Sekitar Jawa Tengah</option>
+														<option value="#">Surabaya dan Bali</option>
+														<option value="#">Bandung dan Bogor</option>
+														<option value="#">Jakarta dan Tanggerang</option>
+														<option value="#">Kalbar dan Kaltim</option>
+													</select>
+													<select class="d-none" name="Timestamp">
+														<option id="timestamp"></option>
+													</select>
+												</div>
+												<button type="submit" class="send_contact3">Send Whatsapp</button>
+											</form>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
+			</div>
 				<div class="in-video-play-btn position-absolute">
-					<a class="video_box d-flex align-items-center justify-content-center" href="#"><i
+					<a class="video_box d-flex align-items-center justify-content-center" href="https://www.youtube.com/watch?v=-oeLrO7nHv0"><i
 							class="fas fa-play"></i>
 						<span class="video_btn_border border_wrap-1"></span>
 						<span class="video_btn_border border_wrap-2"></span>
