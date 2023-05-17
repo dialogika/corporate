@@ -8,12 +8,12 @@
 	<meta name="keywords"
 		content="	accounting, advising, advisory, business, company, consulting, corporate, finance, financial, investments, law, multi-purpose, services, tax help, visual composer">
 	<meta name="author" content="Themexriver">
-	
-	  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="assets/vendor/epora/css/font-awesome-pro.css">
+
+	<!-- Favicons -->
+	<link href="assets/img/favicon.png" rel="icon">
+	<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="assets/vendor/epora/css/font-awesome-pro.css">
 
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -521,7 +521,8 @@
 
 	<!-- Start of breadcrumb section ============================================= -->
 	<section id="in-breadcrumb" class="in-breadcrumb-section">
-		<div class="in-breadcrumb-content position-relative" data-background="https://assets.ey.com/content/dam/ey-sites/ey-com/en_gl/news/pr-images/ey-businesspeople-together-meeting-ideas.jpg">
+		<div class="in-breadcrumb-content position-relative"
+			data-background="https://assets.ey.com/content/dam/ey-sites/ey-com/en_gl/news/pr-images/ey-businesspeople-together-meeting-ideas.jpg">
 			<div class="background_overlay"></div>
 			<div class="container">
 				<div class="in-breadcrumb-title-content position-relative headline ul-li">
@@ -544,7 +545,8 @@
 				<div class="row">
 					<div class="col-lg-6">
 						<div class="in-service-details-img">
-							<img src="https://sustainability.nwd.com.hk/wp-content/uploads/2020/09/Diversity-and-Inclusion-scaled.jpg" alt="">
+							<img src="https://sustainability.nwd.com.hk/wp-content/uploads/2020/09/Diversity-and-Inclusion-scaled.jpg"
+								alt="">
 						</div>
 					</div>
 					<div class="col-lg-6">
@@ -603,7 +605,8 @@
 					</div>
 					<div class="col-lg-7 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
 						<div class="in-benefit-img d-flex justify-content-end">
-							<img src="https://www.cnet.com/a/img/resize/fa8408b539dc0d22e2e33b7bdbd5e44f9a107ae3/2021/03/26/4f087aaa-ad20-40d8-b3ab-b51e0c8c1d62/gettyimages-1221345933.jpg?auto=webp&fit=crop&height=630&width=1200" alt="">
+							<img src="https://www.cnet.com/a/img/resize/fa8408b539dc0d22e2e33b7bdbd5e44f9a107ae3/2021/03/26/4f087aaa-ad20-40d8-b3ab-b51e0c8c1d62/gettyimages-1221345933.jpg?auto=webp&fit=crop&height=630&width=1200"
+								alt="">
 						</div>
 					</div>
 				</div>
@@ -661,7 +664,8 @@
 
 	<!-- Start of CTA section ============================================= -->
 	<section id="in-cta-2" class="in-cta-section-2">
-		<div class="jarallax  position-relative" data-background="https://www.bbva.mx/content/dam/public-web/mexico/photos/meeting-group-young-office-card.jpg.img.2400.1559163534341.jpg">
+		<div class="jarallax  position-relative"
+			data-background="https://www.bbva.mx/content/dam/public-web/mexico/photos/meeting-group-young-office-card.jpg.img.2400.1559163534341.jpg">
 			<div class="background_overlay"></div>
 			<div class="container">
 				<div class="in-cta-content-2 position-relative">
@@ -704,13 +708,15 @@
 						<ul class="nav nav-tabs" id="myTab" role="tablist">
 							<li class="nav-item" role="presentation">
 								<button class="nav-link active" id="home-tab" data-bs-toggle="tab"
-									data-bs-target="#personal" type="button" role="tab" aria-controls="home"
-									aria-selected="true">Personal</button>
+									data-bs-target="#personal" type="button" role="tab">Short </button>
 							</li>
 							<li class="nav-item" role="presentation">
 								<button class="nav-link" id="profile-tab" data-bs-toggle="tab"
-									data-bs-target="#business" type="button" role="tab" aria-controls="profile"
-									aria-selected="false">Business</button>
+									data-bs-target="#business" type="button" role="tab">Long </button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="nav-link" id="trial-tab" data-bs-toggle="tab" data-bs-target="#trial"
+									type="button" role="tab">Trial </button>
 							</li>
 						</ul>
 					</div>
@@ -720,23 +726,26 @@
 								aria-labelledby="home-tab">
 								<div class="in-contact-form-title-area">
 									<div class="form-title headline pera-content">
-										<h3>Lorem Ipsum</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur</p>
+										<h3>Short Training</h3>
+										<p>Dapatkan bentuk pelatihan short training Dialogika</p>
 									</div>
 									<div class="in-contact-form">
-										<form action="#" method="get">
-											<input type="text" name="name" placeholder="Name">
-											<input type="email" name="email" placeholder="Email">
+										<form action="javascript:void" id="myForm" onsubmit="SubForm()" method="post">
+											<input type="text" name="Name" id="names" placeholder="Company Name">
+											<input type="tel" name="whatsapp" placeholder="Whatsapp Number">
 											<div class="in-insurance-type in-select position-relative">
-												<select>
-													<option value="#">Type</option>
-													<option value="#">Lorem Ipsum</option>
-													<option value="#">Lorem Ipsum</option>
-													<option value="#">Lorem Ipsum</option>
-													<option value="#">Lorem Ipsum</option>
+												<select name="Program" id="programs">
+													<option value="#">One Day Training</option>
+													<option value="#">Two Days Training</option>
+													<option value="#">Three Days Training</option>
+													<option value="#">Five Days Training</option>
+													<option value="#">Seven Days Training</option>
+												</select>
+												<select class="d-none" name="Timestamp">
+													<option id="timestamp"></option>
 												</select>
 											</div>
-											<button type="submit">Get a Quote Now</button>
+											<button type="submit" class="send_contact">Send Whatsapp</button>
 										</form>
 									</div>
 								</div>
@@ -745,23 +754,53 @@
 								aria-labelledby="home-tab">
 								<div class="in-contact-form-title-area">
 									<div class="form-title headline pera-content">
-										<h3>Lorem Ipsum</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur</p>
+										<h3>Long Training</h3>
+										<p>Bandingkan bentuk pelatihan long training Dialogika</p>
 									</div>
 									<div class="in-contact-form">
-										<form action="#" method="get">
-											<input type="text" name="name" placeholder="Name">
-											<input type="email" name="email" placeholder="Email">
+										<form action="javascript:void" id="myForm2" onsubmit="SubForm2()" method="post">
+											<input type="text" name="Name" id="names2" placeholder="Company Name">
+											<input type="tel" name="whatsapp" placeholder="Whatsapp Number">
 											<div class="in-insurance-type in-select position-relative">
-												<select>
-													<option value="#">Type</option>
-													<option value="#">Lorem Ipsum</option>
-													<option value="#">Lorem Ipsum</option>
-													<option value="#">Lorem Ipsum</option>
-													<option value="#">Lorem Ipsum</option>
+												<select name="Program" id="programs">
+													<option value="#">One Month Training</option>
+													<option value="#">Two Month Training</option>
+													<option value="#">Three Month Training</option>
+													<option value="#">Six Month Training</option>
+												</select>
+												<select class="d-none" name="Timestamp">
+													<option id="timestamp"></option>
 												</select>
 											</div>
-											<button type="submit">Get a Quote Now</button>
+											<button type="submit" class="send_contact2">Send Whatsapp</button>
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane animated fadeInUp" id="trial" role="tabpanel"
+								aria-labelledby="trial-tab">
+								<div class="in-contact-form-title-area">
+									<div class="form-title headline pera-content">
+										<h3>Free Trial</h3>
+										<p>Dapatkan Pelatihan Gratis Khusus Perusahaan Disini*</p>
+									</div>
+									<div class="in-contact-form">
+										<form action="javascript:void" id="myForm3" onsubmit="SubForm3()" method="post">
+											<input type="text" name="Name" id="names3" placeholder="Company Name">
+											<input type="tel" name="whatsapp" placeholder="Whatsapp Number">
+											<div class="in-insurance-type in-select position-relative">
+												<select name="Program" id="programs">
+													<option value="#">Sekitar Jawa Tengah</option>
+													<option value="#">Surabaya dan Bali</option>
+													<option value="#">Bandung dan Bogor</option>
+													<option value="#">Jakarta dan Tanggerang</option>
+													<option value="#">Kalbar dan Kaltim</option>
+												</select>
+												<select class="d-none" name="Timestamp">
+													<option id="timestamp"></option>
+												</select>
+											</div>
+											<button type="submit" class="send_contact3">Send Whatsapp</button>
 										</form>
 									</div>
 								</div>
@@ -770,8 +809,8 @@
 					</div>
 				</div>
 				<div class="in-video-play-btn position-absolute">
-					<a class="video_box d-flex align-items-center justify-content-center" href="#"><i
-							class="fas fa-play"></i>
+					<a class="video_box d-flex align-items-center justify-content-center"
+						href="https://www.youtube.com/watch?v=-oeLrO7nHv0"><i class="fas fa-play"></i>
 						<span class="video_btn_border border_wrap-1"></span>
 						<span class="video_btn_border border_wrap-2"></span>
 						<span class="video_btn_border border_wrap-3"></span>
@@ -780,7 +819,8 @@
 			</div>
 		</div>
 		<div class="in-cta-info-2 position-absolute wow fadeInRight" data-wow-delay="600ms" data-wow-duration="1000ms"
-			data-background="assets/img/bg/cta-bg3.jpg" style="border-top-left-radius: 50px; border-bottom-left-radius: 50px;">
+			data-background="assets/img/bg/cta-bg3.jpg"
+			style="border-top-left-radius: 50px; border-bottom-left-radius: 50px;">
 			<div class="in-cta-info-item d-flex">
 				<div class="inner-icon">
 					<img src="assets/img/about/call.png" alt="">
