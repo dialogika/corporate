@@ -846,9 +846,10 @@
 
 	<script type="text/javascript">
 		/*** Mobile nav toggle */
-		on('click', '.mobile-nav-toggle', function (e) {
-			$('#sidebar-mobile').offcanvas('show');
-		})
+		$('.mobile-nav-toggle').click(function(e) {
+    $('#sidebar-mobile').offcanvas('show');
+});
+
 		// Timestamp
 		var today = new Date();
 		var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();

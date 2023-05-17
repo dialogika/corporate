@@ -739,10 +739,11 @@
   <script src="assets/js/whatsapp.js"></script>
 
   <script type="text/javascript">
-    /*** Mobile nav toggle */
-    on("click", ".mobile-nav-toggle", function (e) {
-      $("#sidebar-mobile").offcanvas("show");
-    });
+		/*** Mobile nav toggle */
+		$('.mobile-nav-toggle').click(function(e) {
+    $('#sidebar-mobile').offcanvas('show');
+});
+
     // Timestamp
     var today = new Date();
     var date =
