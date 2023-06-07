@@ -10,10 +10,6 @@
   padding-top: 17px;
 }
 
-#topbar i {
-  font-size: 17px;
-}
-
 #topbar.topbar-scrolled {
   top: -40px;
 }
@@ -45,7 +41,6 @@
   display: inline-block;
   line-height: 1px;
   transition: 0.3s;
-
 }
 
 #topbar .social-links a:hover {
@@ -55,7 +50,6 @@
 #topbar .social-links a:first-child {
   border-left: 0;
 }
-
 
 /*--------------------------------------------------------------
 # Header
