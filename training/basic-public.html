@@ -64,15 +64,15 @@
     <script>
         function HeroForm() {
             $.ajax({
-                url: "https://api.apispreadsheets.com/data/nFEcActjMjE46FAP/",
+                url:"https://api.apispreadsheets.com/data/JYfPTNSLW4GoVohc/",
                 type: "post",
-                data: $("#heroForm").serializeArray(),
+                data: $("#HeroForms").serializeArray(),
                 headers: {
                     accessKey: "6df7b75d348bfbdfa9684dfc76ed0053",
                     secretKey: "68a998592183dc30cdc2b07576759f04"
                 },
                 success: function () {
-                    alert("Anda Telah Mendaftar :)")
+                    alert(" Permintaan telah di submit :)")
                 },
                 error: function () {
                     alert("There was an error :(")
@@ -82,7 +82,7 @@
 
         function SubForm() {
             $.ajax({
-                url: "https://api.apispreadsheets.com/data/nFEcActjMjE46FAP/",
+                url:"https://api.apispreadsheets.com/data/JYfPTNSLW4GoVohc/",
                 type: "post",
                 data: $("#myForm").serializeArray(),
                 headers: {
@@ -226,7 +226,7 @@
               <div class="container">
                 <div class="section-title">
                   <h5 style="text-shadow: 0px 1px 1px #7204cf;">Basic Public Speaking</h5>
-                  <h3 class="text-light" style="text-shadow: 0px 3px 3px #283966;">Atasi Rasa Tidak Percaya Diri <br class="d-md-block d-none"> Berbicara Di Depan Umum</h3>
+                  <h3 style="text-shadow: 0px 1px 3px #7204cf;">Atasi Rasa Tidak Percaya Diri <br class="d-md-block d-none"> Berbicara Di Depan Umum</h3>
                 </div>
               </div>
             </div>
@@ -864,7 +864,7 @@
         </div>
       </div>
     </div>
-
+    
     <!-- Vendor JS Files -->
     <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

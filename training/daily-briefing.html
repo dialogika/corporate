@@ -64,15 +64,15 @@
     <script>
         function HeroForm() {
             $.ajax({
-                url: "https://api.apispreadsheets.com/data/nFEcActjMjE46FAP/",
+                url:"https://api.apispreadsheets.com/data/JYfPTNSLW4GoVohc/",
                 type: "post",
-                data: $("#heroForm").serializeArray(),
+                data: $("#HeroForms").serializeArray(),
                 headers: {
                     accessKey: "6df7b75d348bfbdfa9684dfc76ed0053",
                     secretKey: "68a998592183dc30cdc2b07576759f04"
                 },
                 success: function () {
-                    alert("Anda Telah Mendaftar :)")
+                    alert(" Permintaan telah di submit :)")
                 },
                 error: function () {
                     alert("There was an error :(")
@@ -82,7 +82,7 @@
 
         function SubForm() {
             $.ajax({
-                url: "https://api.apispreadsheets.com/data/nFEcActjMjE46FAP/",
+                url:"https://api.apispreadsheets.com/data/JYfPTNSLW4GoVohc/",
                 type: "post",
                 data: $("#myForm").serializeArray(),
                 headers: {
