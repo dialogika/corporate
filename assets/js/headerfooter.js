@@ -72,7 +72,7 @@ class Header extends HTMLElement {
                 <li><a href="../training/high-impact.html">High Impact Presentation</a></li>
                 <li><hr/></li>
                 <li><a href="../training/daily-briefing.html">Daily Briefing</a></li>
-                <li><a href="../training/sales-pitch.html">Sales Pitch</a></li>
+                <li><a href="../../training/sales-pitch.html">Sales Pitch</a></li>
                 <li><a href="../training/handling-complain.html">Handling Complain</a></li>
                 <li><a href="../training/hospitality.html">Hospitality</a></li>
                 <li><a href="../training/host-live.html">Host Live</a></li>
