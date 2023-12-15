@@ -27,7 +27,7 @@ class Header extends HTMLElement {
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-       <a href="../index.html" class="logo me-auto"><img src="../assets/img/logo.webp" alt="" class="img-fluid"></a>
+       <a href="../index.html" class="logo me-auto"><img src="assets/img/logo.webp" alt="" class="img-fluid"></a>
 
        <nav id="navbar" class="navbar order-last order-lg-0">
         <ul class="navbar-desktop-list">
@@ -68,14 +68,14 @@ class Header extends HTMLElement {
           </li>
           <li class="dropdown"><a href="#"><span>Corporate</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
-                <li><a href="../training/basic-public.html">Basic Public Speaking</a></li>
-                <li><a href="../training/high-impact.html">High Impact Presentation</a></li>
+                <li><a href="basic-public.html">Basic Public Speaking</a></li>
+                <li><a href="high-impact.html">High Impact Presentation</a></li>
                 <li><hr/></li>
-                <li><a href="../training/daily-briefing.html">Daily Briefing</a></li>
-                <li><a href="../../training/sales-pitch.html">Sales Pitch</a></li>
-                <li><a href="../training/handling-complain.html">Handling Complain</a></li>
-                <li><a href="../training/hospitality.html">Hospitality</a></li>
-                <li><a href="../training/host-live.html">Host Live</a></li>
+                <li><a href="daily-briefing.html">Daily Briefing</a></li>
+                <li><a href="sales-pitch.html">Sales Pitch</a></li>
+                <li><a href="handling-complain.html">Handling Complain</a></li>
+                <li><a href="hospitality.html">Hospitality</a></li>
+                <li><a href="host-live.html">Host Live</a></li>
               </ul>
           </li>
           <li><a class="nav-link scrollto" href="../event/">Event</a></li>
@@ -97,7 +97,7 @@ class Header extends HTMLElement {
           <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
               <a href="../index.html">
-                <img src="../assets/img/logo.webp" class="offcanvas-title" id="offcanvasNavbarLabel"/>
+                <img src="assets/img/logo.webp" class="offcanvas-title" id="offcanvasNavbarLabel"/>
               </a>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
             </div>
@@ -174,14 +174,14 @@ class Header extends HTMLElement {
                   </div>
                 </a>
                 <div class="collapse" id="training-collapse">
-                  <a href="../training/basic-public.html"><div class="card card-body">Basic Public Speaking</div></a>
-                  <a href="../training/high-impact.html"><div class="card card-body">High Impact Presentation</div></a>
+                  <a href="basic-public.html"><div class="card card-body">Basic Public Speaking</div></a>
+                  <a href="high-impact.html"><div class="card card-body">High Impact Presentation</div></a>
                   <hr/>
-                  <a href="../training/daily-briefing.html"><div class="card card-body">Daily Briefing</div></a>
-                  <a href="../training/sales-pitch.html"><div class="card card-body">Sales Pitch</div></a>
-                  <a href="../training/handling-complain.html"><div class="card card-body">Handling Complain</div></a>
-                  <a href="../training/hospitality.html"><div class="card card-body">Hospitality</div></a>
-                  <a href="../training/host-live.html"><div class="card card-body">Host Live</div></a>
+                  <a href="daily-briefing.html"><div class="card card-body">Daily Briefing</div></a>
+                  <a href="sales-pitch.html"><div class="card card-body">Sales Pitch</div></a>
+                  <a href="handling-complain.html"><div class="card card-body">Handling Complain</div></a>
+                  <a href="hospitality.html"><div class="card card-body">Hospitality</div></a>
+                  <a href="host-live.html"><div class="card card-body">Host Live</div></a>
                 </div>
               </div>
               <a href="../event/"><div class="card card-body">
@@ -228,7 +228,7 @@ class Footer extends HTMLElement {
         <div class="row justify-content-between">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3><img src="../assets/img/white-logo.webp" class="footer-logo" alt="Kelas Public Speaking Jogja" /></h3>
+            <h3><img src="assets/img/white-logo.webp" class="footer-logo" alt="Kelas Public Speaking Jogja" /></h3>
             <p>
               Wadah pengembangan diri membangun aura positif sekaligus meningkatkan kualitas skill, karir hingga level
               kehidupan Anda.
@@ -388,7 +388,7 @@ class Footer extends HTMLElement {
                 <h4>Instagram Post <i class='bx bx-chevron-down d-md-none'></i></h4>
                 <ul>
                   <li class="clearfix">
-                    <img src="../assets/img/ig/1.jpg" alt="" class="rounded ig-post float-left" style="margin-right: 10px;width: 70px;height: 70px; border-radius: 10px;">
+                    <img src="assets/img/ig/1.jpg" alt="" class="rounded ig-post float-left" style="margin-right: 10px;width: 70px;height: 70px; border-radius: 10px;">
                     <div class="post float-left">
                       <a target="__blank" href="https://www.instagram.com/p/Claa6CPISTB/">Gambaran kelas praktek public speaking secara offline</a>
                       <div class="date"><i class="bx bx-calendar" aria-hidden="true"></i> Nov 26, 2022</div>
@@ -396,7 +396,7 @@ class Footer extends HTMLElement {
                   </li>
                   <hr/>
                   <li class="clearfix">
-                    <img src="../assets/img/ig/2.jpg" alt="" class="rounded ig-post float-left" style="margin-right: 10px;width: 70px;height: 70px; border-radius: 10px;">
+                    <img src="assets/img/ig/2.jpg" alt="" class="rounded ig-post float-left" style="margin-right: 10px;width: 70px;height: 70px; border-radius: 10px;">
                     <div class="post float-left">
                       <a target="__blank" href="https://www.instagram.com/p/CyXfjtkrJe7/">Tips-tips agar di notice dosen didalam kelas dan latihan membangun persona.</a>
                       <div class="date"><i class="bx bx-calendar" aria-hidden="true"></i> Oct 14, 2023</div>
@@ -404,7 +404,7 @@ class Footer extends HTMLElement {
                   </li>
                   <hr/>
                   <li class="clearfix">
-                    <img src="../assets/img/ig/3.jpg" alt="" class="rounded ig-post float-left" style="margin-right: 10px;width: 70px;height: 70px; border-radius: 10px;">
+                    <img src="assets/img/ig/3.jpg" alt="" class="rounded ig-post float-left" style="margin-right: 10px;width: 70px;height: 70px; border-radius: 10px;">
                     <div class="post float-left">
                       <a target="__blank" href="https://www.instagram.com/p/CzAf73qr2mj/">5 tips jitu atasi otak yang ngeblank saat berbicara di depan umum</a>
                       <div class="date"><i class="bx bx-calendar" aria-hidden="true"></i> Oct 30, 2023</div>
@@ -412,7 +412,7 @@ class Footer extends HTMLElement {
                   </li>
                   <hr/>
                   <li class="clearfix">
-                    <img src="../assets/img/ig/4.jpg" alt="" class="rounded ig-post float-left" style="margin-right: 10px;width: 70px;height: 70px; border-radius: 10px;">
+                    <img src="assets/img/ig/4.jpg" alt="" class="rounded ig-post float-left" style="margin-right: 10px;width: 70px;height: 70px; border-radius: 10px;">
                     <div class="post float-left">
                       <a target="__blank" href="blog-details.html">5 trik untuk para newbie agar viral di depan umum. (Cocok untuk konten creator)</a>
                       <div class="date"><i class="bx bx-calendar" aria-hidden="true"></i> Nov 2, 2023</div>
@@ -433,15 +433,15 @@ class Footer extends HTMLElement {
             <br><br>
             <h4 class="d-flex justify-content-between">Payment Method<i class='bx bx-chevron-down d-md-none'></i></h4>
             <p><i class="bx bx-chevron-down"></i> Bank Transfer</p>
-            <img src="../assets/img/bank.webp" style="width:100%;" />
+            <img src="assets/img/bank.webp" style="width:100%;" />
             <br><br>
             <p><i class="bx bx-chevron-down"></i> E-Wallet</p>
-            <img src="../assets/img/wallet.webp" style="width:100%;" />
+            <img src="assets/img/wallet.webp" style="width:100%;" />
 
             <ul class="list-group border-warning" style="background: transparent;">
               <li class="list-group-item">
                 <b>Telah Terdaftar Oleh</b><br>
-                <img src="../assets/img/ham.webp" class="" /><br>
+                <img src="assets/img/ham.webp" class="" /><br>
                 <strong>Nomor:</strong> AHU-0118640.AH.01.11.TAHUN 2022<br>
                 <strong>Registrasi: </strong>4022062334106037<br />
               </li>
