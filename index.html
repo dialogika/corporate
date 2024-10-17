@@ -58,57 +58,57 @@
   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>
   <script>
-      function HeroForm() {
-          $.ajax({
-              url:"https://api.apispreadsheets.com/data/JYfPTNSLW4GoVohc/",
-              type: "post",
-              data: $("#HeroForms").serializeArray(),
-              headers: {
-                  accessKey: "6df7b75d348bfbdfa9684dfc76ed0053",
-                  secretKey: "68a998592183dc30cdc2b07576759f04"
-              },
-              success: function () {
-                  alert(" Permintaan telah di submit :)")
-              },
-              error: function () {
-                  alert("There was an error :(")
-              }
-          });
-      }
+    function HeroForm() {
+      $.ajax({
+        url: "https://api.apispreadsheets.com/data/JYfPTNSLW4GoVohc/",
+        type: "post",
+        data: $("#HeroForms").serializeArray(),
+        headers: {
+          accessKey: "6df7b75d348bfbdfa9684dfc76ed0053",
+          secretKey: "68a998592183dc30cdc2b07576759f04"
+        },
+        success: function () {
+          alert(" Permintaan telah di submit :)")
+        },
+        error: function () {
+          alert("There was an error :(")
+        }
+      });
+    }
 
-      function SubForm() {
-          $.ajax({
-              url:"https://api.apispreadsheets.com/data/JYfPTNSLW4GoVohc/",
-              type: "post",
-              data: $("#myForm").serializeArray(),
-              headers: {
-                  accessKey: "6df7b75d348bfbdfa9684dfc76ed0053",
-                  secretKey: "68a998592183dc30cdc2b07576759f04"
-              },
-              success: function () {
-                  alert("Anda Telah Mendaftar :)")
-              },
-              error: function () {
-                  alert("There was an error :(")
-              }
-          });
-      }
+    function SubForm() {
+      $.ajax({
+        url: "https://api.apispreadsheets.com/data/JYfPTNSLW4GoVohc/",
+        type: "post",
+        data: $("#myForm").serializeArray(),
+        headers: {
+          accessKey: "6df7b75d348bfbdfa9684dfc76ed0053",
+          secretKey: "68a998592183dc30cdc2b07576759f04"
+        },
+        success: function () {
+          alert("Anda Telah Mendaftar :)")
+        },
+        error: function () {
+          alert("There was an error :(")
+        }
+      });
+    }
 
-      function Subcription() {
-          $.ajax({
-              url: "https://api.apispreadsheets.com/data/18511/",
-              type: "post",
-              data: $("#subcriptions").serializeArray(),
-              success: function () {
-                  // $('#subcription-modal').modal('show');
-                  // open("https://link.dialogika.co/open-whatsapp-group");
-                  window.location.href = "https://link.dialogika.co/open-whatsapp-group";
-              },
-              error: function () {
-                  alert("There was an error :(")
-              }
-          });
-      }
+    function Subcription() {
+      $.ajax({
+        url: "https://api.apispreadsheets.com/data/18511/",
+        type: "post",
+        data: $("#subcriptions").serializeArray(),
+        success: function () {
+          // $('#subcription-modal').modal('show');
+          // open("https://link.dialogika.co/open-whatsapp-group");
+          window.location.href = "https://link.dialogika.co/open-whatsapp-group";
+        },
+        error: function () {
+          alert("There was an error :(")
+        }
+      });
+    }
   </script>
   <!-- End Spreadsheet API Form Pendaftaran -->
 
@@ -235,15 +235,63 @@
 
         <div class="clients-slider swiper">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/corporate/uad.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/corporate/amikom.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/corporate/mercu.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/corporate/polita.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/corporate/uin-suka.png" class="img-fluid" alt=""></div>
-
+          <div class="swiper-slide">
+            <img src="assets/img/corporate/amikom.png" class="img-fluid" alt="" />
           </div>
-          <div class="swiper-pagination"></div>
+          <div class="swiper-slide">
+            <img src="assets/img/corporate/mercu.png" class="img-fluid" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/corporate/polita.png" class="img-fluid" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/corporate/aveon.png" class="img-fluid" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/corporate/avo.png" class="img-fluid" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/corporate/gides.webp" class="img-fluid" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/corporate/kdi.png" class="img-fluid" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/corporate/KusumaDentalCare.png" class="img-fluid" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/corporate/mercu.png" class="img-fluid" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/corporate/mnc.webp" class="img-fluid" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/corporate/polita.png" class="img-fluid" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/corporate/ruhui-rahayu.webp" class="img-fluid" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/corporate/smk-dr-sutomo-temanggung.png" class="img-fluid" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/corporate/uad.png" class="img-fluid" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/corporate/ugm.png" class="img-fluid" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/corporate/ui.png" class="img-fluid" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/corporate/uii.png" class="img-fluid" alt="" />
+          </div>
+          <div class="swiper-slide" style="width: 200px;">
+            <img src="assets/img/corporate/uin-suka.png" class="img-fluid" alt="" />
+          </div>
         </div>
+        <div class="swiper-pagination"></div>
+      </div>
       </div>
     </section><!-- End Clients Section -->
 
