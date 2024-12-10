@@ -78,15 +78,21 @@ class Header extends HTMLElement {
                 <li><a href="host-live.html">Host Live</a></li>
               </ul>
           </li>
-          <li><a class="nav-link scrollto" href="../event/">Event</a></li>
-          <li><a class="nav-link scrollto" href="../service/">Services</a></li>
-          <li><a class="nav-link scrollto" href="../shop/">Shop</a></li>
-          <li><a class="nav-link scrollto" href="../blog/">Blog</a></li>
+         
+          <li><a class="nav-link scrollto" href="../about">About Us</a></li>
+          <li class="dropdown" style="color: #0b2b6a"><a disabled><span>More</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="../event/">Event</a></li>
+              <li><a href="../intern">Internship</a></li>
+              <li><a href="../shop">Shop</a></li>
+              <li><a href="../blog">Blog</a></li>
+              <li><a href="../service/">Service</a></li>
+            </ul>
         </ul>
         <i class="bi bi-list d-block d-md-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"></i>
        </nav><!-- .navbar -->
 
-      <a href="#trial-request" data-bs-toggle="modal" class="appointment-btn"><span class="d-none d-md-inline">Request</span> Trial</a>
+       <a href="https://www.dialogika.co/program/" class="appointment-btn">Daftar <span class="d-md-inline">Sekarang</span></a>  
 
     </div>
   </header><!-- End Header -->
