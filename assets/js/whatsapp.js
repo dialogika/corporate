@@ -38,3 +38,20 @@ $(document).on('click','.send_contact', function(){
     document.getElementById("text-info").innerHTML = '<span class="no">'+text_no+'</span>';
     }
 });
+
+function kirimKeWhatsApp() {
+    // Ambil nilai dari input
+    let nomorWA = document.querySelector('input[name="nomor"]').value;
+  
+    // Nomor WhatsApp tujuan (ganti dengan nomor yang diinginkan)
+    let tujuanWa = "+685162992597";
+
+     // Pesan yang ingin dikirim (bisa disesuaikan)
+     let pesan = "Halo Admin, saya ingin menghubungi Anda."; 
+
+    // Konstruksi URL WhatsApp
+    let url = "https://api.whatsapp.com/send?phone=" + tujuanWa + "&text=" + encodeURIComponent(pesan + " (dari: " + nomorWA + ")");;
+
+    // Buka URL di tab baru
+    window.open(url, '_blank');
+}

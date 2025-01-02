@@ -88,6 +88,8 @@ class Header extends HTMLElement {
               <li><a href="../blog">Blog</a></li>
               <li><a href="../service/">Service</a></li>
             </ul>
+          </li>
+          
         </ul>
         <i class="bi bi-list d-block d-md-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"></i>
        </nav><!-- .navbar -->
