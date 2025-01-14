@@ -9,7 +9,7 @@ function kirimKeWhatsApp() {
 
   // Validasi input
   if (input_name !== "" && input_corporate !== "") {
-    var message = `Halo admin, saya ${input_name} dari perusahaan ${input_corporate}. Ingin bertanya terkait info corporate training.`;
+    var message = `Halo admin, saya *${input_name}* dari perusahaan *${input_corporate}*. Ingin bertanya terkait info corporate training.`;
 
     var whatsappURL = "";
     if (
