@@ -50,7 +50,7 @@ function kirimKeWhatsApp() {
      let pesan = "Halo Admin, saya ingin menghubungi Anda."; 
 
     // Konstruksi URL WhatsApp
-    let url = "https://api.whatsapp.com/send?phone=" + tujuanWa + "&text=" + encodeURIComponent(pesan + " (dari: " + nomorWA + ")");;
+    let url = "https://api.whatsapp.com/send?phone=" + tujuanWa + "&text=" + encodeURIComponent(pesan + " (dari: " + nomorWA + ")");
 
     // Buka URL di tab baru
     window.open(url, '_blank');
