@@ -10,6 +10,7 @@
   <meta name="author" content="Dialogika" />
 
   <!-- Favicons -->
+  <!-- Font Awesome CDN -->
   <link href="assets/img/favicon.webp" rel="icon">
   <link href="assets/img/apple-touch-icon.webp" rel="apple-touch-icon">
 
@@ -23,10 +24,8 @@
   <meta property="og:type" content="page" />
 
   <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/2ac952ed2e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
@@ -40,7 +39,7 @@
   <link href="assets/vendor/international-phone-number/intlTelInput.css" rel="stylesheet" />
 
 
-  <!-- Part CSS Files --> 
+  <!-- Part CSS Files -->
   <link href="assets/part/theme-counter/theme-counter.css" rel="stylesheet" />
   <link href="assets/part/testimoni-insurin/testi.css" rel="stylesheet" />
   <link href="assets/part/about-append/about.css" rel="stylesheet" />
@@ -51,7 +50,7 @@
   <link href="assets/part/popup-box/popup.css" rel="stylesheet" />
   <link href="assets/part/modals/modal.css" rel="stylesheet" />
   <link href="assets/part/smooth-slider/smooth-slider.css" rel="stylesheet" />
-    <link href="assets/part/read-more/read-more_less.css" rel="stylesheet" />
+  <link href="assets/part/read-more/read-more_less.css" rel="stylesheet" />
 
 
   <!-- Template Main CSS File -->
@@ -118,14 +117,21 @@
 
   <!-- Meta Pixel Code -->
   <script>
-    !function (f, b, e, v, n, t, s) {
-      if (f.fbq) return; n = f.fbq = function () {
+    ! function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
         n.callMethod ?
           n.callMethod.apply(n, arguments) : n.queue.push(arguments)
       };
-      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-      n.queue = []; t = b.createElement(e); t.async = !0;
-      t.src = v; s = b.getElementsByTagName(e)[0];
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t, s)
     }(window, document, 'script',
       'https://connect.facebook.net/en_US/fbevents.js');
@@ -140,21 +146,37 @@
   <!-- DO NOT MODIFY -->
   <!-- Quora Pixel Code (JS Helper) -->
   <script>
-    !function (q, e, v, n, t, s) { if (q.qp) return; n = q.qp = function () { n.qp ? n.qp.apply(n, arguments) : n.queue.push(arguments); }; n.queue = []; t = document.createElement(e); t.async = !0; t.src = v; s = document.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s); }(window, 'script', 'https://a.quora.com/qevents.js');
+    ! function (q, e, v, n, t, s) {
+      if (q.qp) return;
+      n = q.qp = function () {
+        n.qp ? n.qp.apply(n, arguments) : n.queue.push(arguments);
+      };
+      n.queue = [];
+      t = document.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = document.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s);
+    }(window, 'script', 'https://a.quora.com/qevents.js');
     qp('init', 'cae6711903da464ab62f03df5f66aedc');
     qp('track', 'ViewContent');
   </script>
   <noscript><img height="1" width="1" style="display:none"
       src="https://q.quora.com/_/ad/cae6711903da464ab62f03df5f66aedc/pixel?tag=ViewContent&noscript=1" /></noscript>
   <!-- End of Quora Pixel Code -->
-  <script>qp('track', 'GenerateLead');</script>
+  <script>
+    qp('track', 'GenerateLead');
+  </script>
   <!-- End Pixel Quora -->
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-HV60XT856G"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'UA-148836422-2');
@@ -163,23 +185,37 @@
   <!-- End Global site tag (gtag.js) - Google Analytics -->
 
   <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-KGK9D6H');</script>
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KGK9D6H');
+  </script>
   <!-- End Google Tag Manager -->
 
   <!-- Hotjar Tracking Code for https://dialogika.co -->
   <script>
     (function (h, o, t, j, a, r) {
-      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
-      h._hjSettings = { hjid: 2828594, hjsv: 6 };
+      h.hj = h.hj || function () {
+        (h.hj.q = h.hj.q || []).push(arguments)
+      };
+      h._hjSettings = {
+        hjid: 2828594,
+        hjsv: 6
+      };
       a = o.getElementsByTagName('head')[0];
-      r = o.createElement('script'); r.async = 1;
+      r = o.createElement('script');
+      r.async = 1;
       r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
       a.appendChild(r);
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
@@ -225,8 +261,10 @@
         <h2>Upscale Produktivitas Perusahaan dengan Berinvestasi Kepada Softskill Karyawan</h2>
         <div class="col-lg-6">
           <form action="#" class="sign-up-form d-flex" data-aos="fade-up" data-aos-delay="300">
-            <input type="text" class="form-control rounded-start rounded-0" placeholder="Your name" id="userName" name="name"> 
-            <input type="text" class="form-control border-start border-2 rounded-0 rounded-end" placeholder="Corporate Name" id="corporateName" name="corporate">
+            <input type="text" class="form-control rounded-start rounded-0" placeholder="Your name" id="userName"
+              name="name">
+            <input type="text" class="form-control border-start border-2 rounded-0 rounded-end"
+              placeholder="Corporate Name" id="corporateName" name="corporate">
             <input type="submit" class="btn btn-primary" value="Contact Admin" onclick="kirimKeWhatsApp()">
           </form>
         </div>
@@ -706,12 +744,13 @@
                       <p>
                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                         Kelasnya seru, menyenangkan, dibimbing oleh Instruktur yg handal
-                         ramah dan sabar, setelah mengikuti kelas ini menambah kepercayaan diri
-                         tampil berbicara di depan publik
+                        ramah dan sabar, setelah mengikuti kelas ini menambah kepercayaan diri
+                        tampil berbicara di depan publik
                         <span class="dots">...</span><span class="readMore"> Read
                           More
                           &raquo;</span>
-                        <span class="moreText">  dengan penyampaian yg tenang dan sistematis</span><span class="readLess"> &laquo; Read Less</span>
+                        <span class="moreText"> dengan penyampaian yg tenang dan sistematis</span><span
+                          class="readLess"> &laquo; Read Less</span>
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                       </p>
                     </div>
@@ -766,19 +805,21 @@
                       </h4>
                       <p>
                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                        Saya ikut kelas di Dialogika pertengahan bulan november. Tim Dialogika sangat ramah dan 
-                        adminnya pun fast respon sekali ketika saya tanya-tanya sebelum bergabung. Karena di waktu 
+                        Saya ikut kelas di Dialogika pertengahan bulan november. Tim Dialogika sangat ramah dan
+                        adminnya pun fast respon sekali ketika saya tanya-tanya sebelum bergabung. Karena di waktu
                         itu, saya sempat ragu untuk mendaftar.
                         <span class="dots">...</span><span class="readMore"> Read
                           More
                           &raquo;</span>
-                        <span class="moreText"> Namun, setelah saya mengikuti kelas di Dialogika rasanya seru dan 
-                          menyenangkan, karena ditiap pertemuan ada praktek setelah penyampaian matari. Mentornya 
-                          baik dan mengerti akan kendala yang kita rasakan ketika public speaking. Materi yang 
+                        <span class="moreText"> Namun, setelah saya mengikuti kelas di Dialogika rasanya seru dan
+                          menyenangkan, karena ditiap pertemuan ada praktek setelah penyampaian matari. Mentornya
+                          baik dan mengerti akan kendala yang kita rasakan ketika public speaking. Materi yang
                           disampaikan pun mudah untuk dipahami.
-                        
-                          Disini juga ketemu temen-temen baru yang sama-sama mau belajar public speaking, jadi tambah semangat ikut kelasnya.
-                          Tentu, kita dapat feedback kritik saran setelah praktek berlatih public speaking jadi memungkin sekali untuk kita
+
+                          Disini juga ketemu temen-temen baru yang sama-sama mau belajar public speaking, jadi tambah
+                          semangat ikut kelasnya.
+                          Tentu, kita dapat feedback kritik saran setelah praktek berlatih public speaking jadi
+                          memungkin sekali untuk kita
                           tau salahnya dimana dan dapat memperbaiki lagi akan hal tersebut.</span><span
                           class="readLess"> &laquo; Read Less</span>
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
@@ -805,15 +846,16 @@
                       </h4>
                       <p>
                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                        Kelas Dialogika adalah pilihan yang pas. Di sini, kita nggak cuma diajarin teori 
-                        soal ngomong di depan umum, tapi juga langsung diajak praktik. Jadi, belajar di 
-                        Dialogika itu nggak cuma duduk dengerin, tapi langsung action!<span class="dots">...</span><span class="readMore"> Read
+                        Kelas Dialogika adalah pilihan yang pas. Di sini, kita nggak cuma diajarin teori
+                        soal ngomong di depan umum, tapi juga langsung diajak praktik. Jadi, belajar di
+                        Dialogika itu nggak cuma duduk dengerin, tapi langsung action!<span class="dots">...</span><span
+                          class="readMore"> Read
                           More
                           &raquo;</span>
                         <span class="moreText">Mentornya keren banget, mereka tahu gimana cara bikin kita
-                           yang awalnya gugup jadi lebih percaya diri. Nggak perlu takut salah, karena suasana
-                            kelasnya santai dan supportif. Kita juga dapat masukan yang detail, jadi tahu bagian
-                             mana yang perlu diperbaiki.</span><span class="readLess"> &laquo; Read Less</span>
+                          yang awalnya gugup jadi lebih percaya diri. Nggak perlu takut salah, karena suasana
+                          kelasnya santai dan supportif. Kita juga dapat masukan yang detail, jadi tahu bagian
+                          mana yang perlu diperbaiki.</span><span class="readLess"> &laquo; Read Less</span>
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                       </p>
                     </div>
@@ -870,11 +912,12 @@
                       <p>
                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                         This public speaking course has completely transformed my communication skills.
-                        I used to dread speaking in front of a crowd, but now I confidently express my 
+                        I used to dread speaking in front of a crowd, but now I confidently express my
                         ideas.<span class="dots">...</span><span class="readMore"> Read
                           More
                           &raquo;</span>
-                        <span class="moreText"> The practical exercises and constructive feedback have boosted my self-assurance,
+                        <span class="moreText"> The practical exercises and constructive feedback have boosted my
+                          self-assurance,
                           making me a more effective communicator.</span><span class="readLess"> &laquo;
                           Read Less</span>
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
@@ -993,7 +1036,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="swiper-slide">
+                <!-- <div class="swiper-slide">
                   <div class="member d-flex align-items-start ">
                     <div class="pic"><img src="assets/img/mentor/fajar.jpg" class="img-fluid" alt=""></div>
                     <div class="member-info">
@@ -1005,7 +1048,7 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
               <!-- <div class="swiper-scrollbar"></div> -->
               <div class="swiper-pagination"></div>
